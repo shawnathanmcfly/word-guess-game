@@ -1,0 +1,73 @@
+
+    html, body {
+        
+        height : 100%;
+        margin : 0;
+
+    }
+
+    #backDiv {
+
+        background-image : url("../images/back.jpg");
+        background-repeat : no-repeat;
+        background-size : cover;
+        height : 100%;
+
+    }
+
+    #gameDiv {
+
+        margin : auto;
+        background-color : black;
+        width : 800px;
+        opacity : 0.9;
+        height : 100%;
+        color : white;
+        padding : 8px 8px 8px 8px;
+        cursor : crosshair;
+        overflow: auto;
+        
+    }
+
+    #curWord {
+
+        position : relative;
+        float : left;
+        background-color : #C6F2FF;
+        color : black;
+        width : 100%;
+        font-family : "Indie Flower", cursive;
+        font-size : 40px;
+        text-align : center;
+        padding-top : 20px;
+        padding-bottom : 20px;
+        margin-bottom : 10px;
+    
+    }
+
+    #weebTitle {
+        background-color: blue;
+        font-size: 180px;
+        text-align: center;
+        font-family : "Anton", sans-serif;
+        color: red;   
+    }
+    
+    #titleFont {
+        color : red;
+        float : left;
+        font-family : "Anton", sans-serif;
+        background-color : 'blue';
+        font-size : 200px;
+        text-align : center;
+    }
+
+    
+
+    #msg, #chances{
+
+        color : red;
+        font-family : "Anton", sans-serif;
+        font-size : 60px;
+        text-align : center;
+    }
