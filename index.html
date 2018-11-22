@@ -4,30 +4,24 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     
-    <title>Weeb</title>
+    <title>Trivia Game</title>
   </head>
+  
   <body>
-      <audio id="win"><source src="./assets/sounds/doo.mp3" type="audio/mpeg"></audio>
-      <div id="backDiv">
-        <div id="gameDiv">
-
-          <p id="weebTitle">WEEB GUESS</p>
-          <div id="curWord"></div>
-          <p id="chances"></p> 
-          <p id="msg"></p>         
-        
-
-        </div>
-      </div>
-
       
-
-      <script src="./assets/javascript/words.js"></script>
-      <script src="./assets/javascript/game.js"></script>
+    <div class="backGround"><img id="titleImg" style="margin-right:auto; margin-left:auto; display:block; height:auto; max-width:100%" src="./assets/images/title.gif"/></div>
+    <audio id="wrong" style="visibility: hidden">
+      <source src="./assets/sounds/wrong.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="correct" style="visibility: hidden">
+        <source src="./assets/sounds/corr.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="start" style="visibility: hidden">
+        <source src="./assets/sounds/start.mp3" type="audio/mpeg">
+    </audio>
     
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/javascript/app.js"></script>
   </body>
 </html>
